@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Kaggel Competitions 2017</title>
+    <meta name="author" content="drumrick">
+    <meta content="List of Kaggle Competions hosted at 2017" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/html/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/html/css/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <H1>Kaggle Competitions 2017</H1>
+      <div><button type="button" class="btn btn-primary">
+        Competition Type <span class="badge badge-light">5</span>
+      </button>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-secondary">Featured</button>
+        <button type="button" class="btn btn-secondary">Getting Started</button>
+        <button type="button" class="btn btn-secondary">Playground</button>
+        <button type="button" class="btn btn-secondary">Recruitment</button>
+        <button type="button" class="btn btn-secondary">Research</button>
+      </div></div><br />
+      <div><button type="button" class="btn btn-primary">
+        Data Type <span class="badge badge-light">4</span>
+      </button>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-secondary">image</button>
+        <button type="button" class="btn btn-secondary">tabular</button>
+        <button type="button" class="btn btn-secondary">text</button>
+        <button type="button" class="btn btn-secondary">time series</button>
+      </div></div><br />
+      <div><button type="button" class="btn btn-primary">
+        Result Type <span class="badge badge-light">4</span>
+      </button>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-secondary">regression</button>
+        <button type="button" class="btn btn-secondary">multiclass regression</button>
+        <button type="button" class="btn btn-secondary">multiclass classification</button>
+        <button type="button" class="btn btn-secondary">labeling</button>
+      </div></div><br />
+      <ul>
+        <li>regression: 每一個 test example 要回傳一個 0~1 之間的值。</li>
+        <li>multiclass regression: 每一個 test example 要回傳多個 0~1 之間的值。</li>
+        <li>binary classification: 如果可以接受 0~1 之間的值，就會被算成 regression 所以暫時沒有。</li>
+        <li>multiclass classification: 每一個 test example 要回傳一個類別名稱。</li>
+        <li>labeling: 每一個 test example 可以回傳多餘一個的標籤名稱。</li>
+      </ul>
+
+      <div id='table-container'></div>
+
+    </div><!-- /.container -->
+
+    <footer class='footer'>
+      <div class='container-fluid'>
+        <hr />
+        <p class='pull-right'><a href='https://github.com/derekeder/csv-to-html-table'>CSV to HTML Table</a> by <a href='http://derekeder.com'>Derek Eder</a></p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="/html/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/html/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/html/js/jquery.csv.min.js"></script>
+    <script type="text/javascript" src="/html/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="/html/js/dataTables.bootstrap.js"></script>
+    <script type="text/javascript" src="/html/js/csv_to_html_table.js"></script>
+
+
+    <script type="text/javascript">
+      function format_link(link){
+        if (link)
+          return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+        else
+          return "";
+      }
+
+      CsvToHtmlTable.init({
+        csv_path: 'https://raw.githubusercontent.com/kaggletw/solutions/master/data/competitions/kaggle-competitions-2017.csv',
+        element: 'table-container', 
+        allow_download: true,
+        csv_options: {separator: ',', delimiter: '"'},
+        datatables_options: {"paging": false},
+        custom_formatting: [[8, format_link]]
+      });
+    </script>
+  </body>
+</html>
