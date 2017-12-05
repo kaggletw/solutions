@@ -1,0 +1,34 @@
+Competition Type,Data Type,Result Type,Image Task,Metrics,Year,Month,Competition Title,URL,Teams,Prize
+Research,text,,,Accuracy,2017,11,Text Normalization Challenge - English Language,https://www.kaggle.com/c/text-normalization-challenge-english-language,260,"$25,000"
+Research,text,,,Accuracy,2017,11,Text Normalization Challenge - Russian Language,https://www.kaggle.com/c/text-normalization-challenge-russian-language,162,"$25,000"
+Research,time series,regression,,SMAPE,2017,11,Web Traffic Time Series Forecasting,https://www.kaggle.com/c/web-traffic-time-series-forecasting,1095,"$25,000"
+Research,text,multiclass regression,,LogLoss,2017,10,Personalized Medicine: Redefining Cancer Treatment,https://www.kaggle.com/c/msk-redefining-cancer-treatment,1386,"$15,000"
+Research,image,,adversarial learning,,2017,10,NIPS 2017: Non-targeted Adversarial Attack,https://www.kaggle.com/c/nips-2017-non-targeted-adversarial-attack,91,
+Research,image,,adversarial learning,,2017,10,NIPS 2017: Targeted Adversarial Attack,https://www.kaggle.com/c/nips-2017-targeted-adversarial-attack,65,
+Research,image,,adversarial learning,,2017,10,NIPS 2017: Defense Against Adversarial Attack,https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack,107,
+Featured,image,,object segmentation,DiceCoef,2017,9,Carvana Image Masking Challenge,https://www.kaggle.com/c/carvana-image-masking-challenge,735,"$25,000"
+Playground,tabular,regression,,RMSLE,2017,9,New York City Taxi Trip Duration,https://www.kaggle.com/c/nyc-taxi-trip-duration,1275,"$30,000"
+Playground,image,regression,object detection,AUROC,2017,8,Invasive Species Monitoring,https://www.kaggle.com/c/invasive-species-monitoring,513,
+Featured,tabular,labeling,,F1 Score,2017,8,Instacart Market Basket Analysis,https://www.kaggle.com/c/instacart-market-basket-analysis,2623,"$25,000"
+Featured,image,labeling,object identification,F2 Score,2017,7,Planet: Understanding the Amazon from Space,https://www.kaggle.com/c/planet-understanding-the-amazon-from-space,938,"$60,000"
+Featured,tabular,regression,,R2 Value,2017,7,Mercedes-Benz Greener Manufacturing,https://www.kaggle.com/c/mercedes-benz-greener-manufacturing,3835,"$25,000"
+Research,image,labeling,object identification,,2017,7,iNaturalist Challenge at FGVC 2017,https://www.kaggle.com/c/inaturalist-challenge-at-fgvc-2017,50,
+Research,image,multiclass classification,,,2017,7,iMaterialist Challenge at FGVC 2017,https://www.kaggle.com/c/imaterialist-challenge-FGVC2017,28,
+Featured,tabular,regression,,RMSLE,2017,6,Sberbank Russian Housing Market,https://www.kaggle.com/c/sberbank-russian-housing-market,3274,"$25,000"
+Featured,image,,,RMSE,2017,6,NOAA Fisheries Steller Sea Lion Population Count,https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count,385,"$25,000"
+Featured,image ,multiclass regression,object identification,LogLoss,2017,6,Intel & MobileODT Cervical Cancer Screening,https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening,848,"$100,000"
+Featured,text,,,LogLoss,2017,6,Quora Question Pairs,https://www.kaggle.com/c/quora-question-pairs,3307,"$25,000"
+Featured,image,labeling,,GAP,2017,6,Google Cloud & YouTube-8M Video Understanding Challenge,https://www.kaggle.com/c/youtube8m,655,"$100,000"
+Recruitment,tabular,regression,,LogLoss,2017,4,Two Sigma Connect: Rental Listing Inquiries,https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries,2488,
+Featured,image,regression,,LogLoss,2017,4,Data Science Bowl 2017,https://www.kaggle.com/c/data-science-bowl-2017,1972,"$1,000,000"
+Featured,image,multiclass regression,object detection,LogLoss,2017,4,The Nature Conservancy Fisheries Monitoring,https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring,2293,"$150,000"
+Playground,time series,regression,,LogLoss,2017,4,March Machine Learning Mania 2017,https://www.kaggle.com/c/march-machine-learning-mania-2017,442,
+Playground,text,labeling,,F1 Score,2017,3,Transfer Learning on Stack Exchange Tags,https://www.kaggle.com/c/transfer-learning-on-stack-exchange-tags,380,
+Featured,image,multiclass classification,object detection,,2017,3,Dstl Satellite Imagery Feature Detection,https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection,419,"$100,000"
+Playground,image,regression,object identification,LogLoss,2017,3,Dogs vs. Cats Redux: Kernels Edition,https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition,1314,
+Featured,time serios,,,R Value,2017,3,Two Sigma Financial Modeling Challenge,https://www.kaggle.com/c/two-sigma-financial-modeling,2070,"$100,000"
+Playground,image,multiclass regression,object identification,LogLoss,2017,3,Leaf Classification,https://www.kaggle.com/c/leaf-classification,1598,
+Playground,tabular,,,,2017,1,Santa's Uncertain Bags,https://www.kaggle.com/c/santas-uncertain-bags,694,
+Featured,time series,labeling,,MAP@12,2017,1,Outbrain Click Prediction,https://www.kaggle.com/c/outbrain-click-prediction,979,"$25,000"
+Getting Started,image,,object detection,RMSE,2017,1,Facial Keypoints Detection,https://www.kaggle.com/c/facial-keypoints-detection,175,
+Getting Started,image,multiclass classification,object identification,Accuracy,2017,1,First Steps With Julia,https://www.kaggle.com/c/street-view-getting-started-with-julia,56,
