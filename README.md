@@ -8,7 +8,7 @@
 ## 流程
 
 -   整理已經結束的競賽列表
-    -   目前已經整理 2017 年 12 月前結束的競賽 \[[web](https://kaggletw.github.io/data/competitions/kaggle-competitions-2017.html)]\[[csv](data/competitions/kaggle-competitions-2017.csv)]
+    -   目前已經整理 2017 年 12 月前結束的競賽 \[[web](https://kaggletw.github.io/solutions/data/competitions/kaggle-competitions-2017.html)]\[[csv](data/competitions/kaggle-competitions-2017.csv)]
 -   收集各競賽相關的公開資源
 -   閱讀分享並記錄在這個專頁
 
